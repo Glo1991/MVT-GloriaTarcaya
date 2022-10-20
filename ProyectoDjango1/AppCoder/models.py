@@ -8,6 +8,3 @@ class Familia (models.Model):
     apellido=models.CharField(max_length=50)
     fecha_nac=models.DateField()
     edad=models.IntegerField()
-
-class EdadCalculada (models.Model):
-    edad_calculada=models.IntegerField()
